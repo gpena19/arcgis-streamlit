@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("📊 Climate Data Dashboard")
 
-df = pd.read_csv("../refugee_temp_all_view.csv")
+df = pd.read_csv("pages/refugee_temp_all_view.csv")
 
 df["year"] = pd.to_numeric(df["year"])
 df["avg_surface_temp_c"] = pd.to_numeric(df["avg_surface_temp_c"])
